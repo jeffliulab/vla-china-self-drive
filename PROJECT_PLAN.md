@@ -683,7 +683,6 @@ image + ego state + route instruction + Chinese driving instruction
 ## 12. 当前风险和注意事项
 
 - 当前本机 Codex 沙箱中 git 状态不可用，需要重新 clone 或初始化后再提交。
-- `nvidia-smi` 当前检查失败，正式跑 CARLA 前需要确认 GPU 驱动。
 - 静态资产存在不代表 blueprint 一定可 spawn，需要运行 `asset_inventory.py` 验证。
 - CARLA 0.9.16 和 0.10.0 默认都使用 `localhost:2000`，不要同时启动。
 - CARLA package、地图、episode 数据、模型权重不要进入 git。
