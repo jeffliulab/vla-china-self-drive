@@ -1,0 +1,36 @@
+# Local editor / agent state
+.agents/
+.codex/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# CARLA packages and local simulator installs
+CARLA/
+carla-*/
+*.tar.gz
+*.zip
+*.whl
+
+# Generated experiment data
+outputs/
+data/
+datasets/
+runs/
+videos/
+logs/
+checkpoints/
+*.mp4
+*.avi
+*.mov
+*.parquet
+
+# OS / misc
+.DS_Store
+Thumbs.db
