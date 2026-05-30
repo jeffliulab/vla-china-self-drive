@@ -34,3 +34,6 @@ checkpoints/
 # OS / misc
 .DS_Store
 Thumbs.db
+
+# tutorial 输出图
+_out/

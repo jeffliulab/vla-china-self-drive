@@ -1,0 +1,3 @@
+conda activate carla9
+cd /home/jeff/CARLA/carla-0.9.16
+./CarlaUE4.sh -quality-level=Low -nosound
